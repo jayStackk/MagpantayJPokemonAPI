@@ -1,0 +1,9 @@
+/* * {
+
+    height: 100%;
+} */
+
+body {
+  background: url("/assets/1920x1080-px-bit-pixel-art-pokemon-wallpaper-preview.jpg");
+  background: no-repeat;
+}

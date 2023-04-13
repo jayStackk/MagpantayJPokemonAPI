@@ -1,0 +1,239 @@
+     /* Initial configurations      */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+html {
+
+    height: 100%;
+}
+
+button {
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+header{
+    background-color: yellow;
+    margin-top: 5rem;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+ 
+}
+
+header li img{
+    max-width: 48px;
+    width: 10vw;
+    min-width: 20px;
+}
+
+header li span{
+    font-size: clamp(0.5em, 1.5vw, 5em);
+}
+
+.menow {
+
+
+    justify-content: center;
+}
+
+
+
+
+/*      Initial configurations      */
+main{
+    background-color: var(--bg-color);
+    min-height: 50vh;
+    font-family: var(--font);
+    font-weight: var(--bold);
+}
+
+
+.sharkLava {
+
+    background-color: blueviolet;
+}
+
+
+
+  
+
+
+
+/*      Pokemon Card        */
+#pokemonContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#pokemonContainer p{
+    font-size: clamp(0.75em, 2.5vw, 7em);
+    text-align: center;
+    margin: 2em;
+}
+
+#pokemonCard{
+    background-color: blueviolet;
+    border:5px;
+    border-radius: 15px;
+    
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#pokemonCard img{
+    width: 75px;
+}
+
+#pokemonCard h2{
+    font-size: clamp(0.75em, 2.5vw, 7em);
+}
+
+#pokemonCard h3{
+    font-size: clamp(0.5em, 1.5vw, 5em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pokemonCard span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.5em, 1.5vw, 5em);
+    
+}
+
+#pokemonCard span img, #pokemonCard h3 img{
+    width: 15px;
+    margin: 0.25em;
+}
+
+
+
+
+/*      Form Section        */
+form{
+    font-size: clamp(0.75em, 2.5vw, 5em);
+    text-align: center;
+    width: 50%;
+    margin: min(10vw, 2.5em) auto 0;
+    /* background-color: blue; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pokename {
+
+    background-color: aqua;
+}
+/* 
+label{
+    display: block;
+    margin: min(5vw, 0.5em);
+
+} */
+
+input{
+    text-align: end;
+    padding: 10pt;
+    border: 10rem;
+    border-radius: 25px;
+    /* font-weight: var(--bold); */
+    font-size: 45pt;
+    
+    text-transform: uppercase;
+   
+    transform: scale(0.9);
+}
+/* 
+#searchButton{
+    border: min(1vw, 1px) solid var(--txt-color);
+    padding: 10pt;
+    margin: min(5vw, 0.5em);
+} */
+
+
+
+.left {
+    text-align:center;
+    /* margin-left: 250px; */
+}
+
+.right {
+    text-align: right;
+    /* margin-right: 250px; */
+}
+
+.main button {
+    background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+.border {
+    border-top: 6px solid red;
+    border: 2px solid mediumblue;
+    padding: 5px; /* or */
+    margin-bottom: 5px;
+}
+
+.menow {
+
+    font-size: 33px;
+    color: black;
+}
+
+.newHeader {
+
+    text-align: center;
+    
+    justify-content: center;
+   
+}
+
+

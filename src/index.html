@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+  
+  
+  
+
+  
+  
+</head>
+
+<!-- starting navBAr navBArrr-->
+
+
+<header class="newHeader">
+ <h1> POKEMON API </h1>
+
+
+
+</header>
+
+
+
+
+<body class="bg-purple-500 sharkLava">
+    <h1 class="text-4xl font-bold  text-center heyy" style="background-color: palegoldenrod;">
+        <main>
+          <div id="pokemonContainer">
+              
+          </div>
+
+          <button id="namebtn" type="button" class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Favorites</button>
+
+          <div class="sifuMan">
+                
+            <div id="injectHere" class="col-12 mt-2"></div>
+        </div>
+          
+          <form onsubmit="return false" method="POST">
+              <label for="pokeName">Pokémon Name // Pokémon ID</label>
+              <input type="text" name="pokeName" id="pokeName" onClick="this.select();">
+              <input type="submit" value="Search" id="searchButton">
+          </form>
+        </main>
+    </h1>
+    
+    <div class="border menow ">
+      <div class="top-bar text-7xl font-bold  text-center heyy">
+          
+      </div>
+      <div class="left menow">
+          <div class="number menow 7-xl">
+              <p class="7-xl font-medium"><strong>*Who is this pokemon? </strong><span id="id"></span></p>
+          </div>
+          <div class="image menow">
+            <img id="img">
+          </div>
+          <button id="randomBtn">Get Random Pok&#233;mon</button>
+          <div class="name">
+              <p><span id="pokeName"></span></p>
+          </div>
+      </div>
+      <div class="right">
+          <div class="container">
+              <div class="specs">
+                  <div class="type">
+                      <p><strong>type </strong><span id="type"></span></p>
+                  </div>
+                  <p><strong>moves</strong></p>
+                  <div class="move1">
+                      <p><span id="move1"> </span></p>
+                  </div>
+                  <div class="move2">
+                      <p><span id="move2"> </span></p>
+                  </div>
+                  <div class="move3">
+                      <p><span id="move3"> </span></p>
+                  </div>
+                  <div class="experience">
+                      <p><strong>xp</strong> <span id="xp"></span></p>
+                  </div>
+                  <div class="height">
+                      <p><strong>ht</strong> <span id="height"></span></p>
+                  </div>
+                  <div class="weight">
+                      <p><strong>wt</strong> <span id="weight"></span></p>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+
+
+
+    <script src="/src/app.js" type="module"></script>
+    <script src="/src/elements.js" type="module"></script>
+</body>
+</html>
+
